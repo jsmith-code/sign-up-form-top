@@ -20,6 +20,7 @@ body {
     display: flex;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+    background: rgb(243, 243, 243)
 }
 
 .logo-container {
@@ -61,4 +62,7 @@ body {
 
 .img-credit a {
     color: #FFF;
+}
+
+.content-container {
 }
