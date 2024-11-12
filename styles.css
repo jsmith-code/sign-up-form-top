@@ -25,6 +25,10 @@ body {
     width: clamp(400px, 40%, 650px);
     align-self: stretch;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     background: 
         url(./img/bg_pine.jpg)
         top right / cover
