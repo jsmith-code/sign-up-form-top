@@ -63,3 +63,8 @@ body {
 .img-credit a {
     color: #FFF;
 }
+
+.info {
+    font-weight: bold;
+    padding-left: 32px;
+}
