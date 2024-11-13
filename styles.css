@@ -91,3 +91,8 @@ body {
     font-weight: bold;
     text-decoration: none;
 }
+
+.log-in a:hover {
+    color: rgb(92, 107, 77);
+    text-decoration: underline;
+}
