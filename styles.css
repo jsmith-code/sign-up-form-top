@@ -64,6 +64,10 @@ body {
     color: #FFF;
 }
 
+.content-container {
+    flex: 1;
+}
+
 .info {
     font-weight: bold;
     padding-left: 32px;
@@ -107,6 +111,9 @@ body {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    background: #FFF;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    align-self: stretch;
 }
 
 .form-row {
