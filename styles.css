@@ -96,3 +96,19 @@ body {
     color: rgb(92, 107, 77);
     text-decoration: underline;
 }
+
+#sign-up {
+    padding: 24px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-row {
+    display: flex;
+    gap: 48px;
+}
+
+.form-field input {
+    display: block;
+}
