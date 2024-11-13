@@ -125,6 +125,18 @@ body {
 
 .form-field input {
     display: block;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    padding: 4px 8px;
+}
+
+.form-field input:focus {
+    outline: 1px solid rgb(42, 116, 255);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.form-field[type="password"] input:invalid, .form-field input:user-invalid {
+    border: 1px solid rgb(218, 56, 56);
 }
 
 .form-field label {
