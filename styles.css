@@ -85,3 +85,9 @@ body {
 .sign-up-btn:hover {
     background: rgb(111, 117, 105);
 }
+
+.log-in a {
+    color: rgb(113, 129, 97);
+    font-weight: bold;
+    text-decoration: none;
+}
