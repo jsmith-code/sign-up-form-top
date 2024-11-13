@@ -70,7 +70,8 @@ body {
 
 .info {
     font-weight: bold;
-    padding-left: 32px;
+    padding: 16px 32px;
+    max-width: 550px;
 }
 
 .sign-up-btn {
