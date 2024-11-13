@@ -112,3 +112,8 @@ body {
 .form-field input {
     display: block;
 }
+
+.form-header {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
