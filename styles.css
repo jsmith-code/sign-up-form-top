@@ -87,6 +87,10 @@ body {
     background: rgb(111, 117, 105);
 }
 
+.log-in {
+    margin-left: 32px;
+}
+
 .log-in a {
     color: rgb(113, 129, 97);
     font-weight: bold;
