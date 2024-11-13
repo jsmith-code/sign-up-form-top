@@ -68,3 +68,20 @@ body {
     font-weight: bold;
     padding-left: 32px;
 }
+
+.sign-up-btn {
+    padding: 8px 32px;
+    border: none;
+    border-radius: 4px;
+    background: rgb(93, 99, 87);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 100ms;
+}
+
+.sign-up-btn:hover {
+    background: rgb(111, 117, 105);
+}
