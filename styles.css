@@ -135,7 +135,8 @@ body {
     box-shadow: 2px 2px 4px hsla(0, 0%, 0%, 0.2);
 }
 
-.form-field[type="password"] input:invalid, .form-field input:user-invalid {
+.form-field[type="password"] input:invalid, 
+.form-field input:user-invalid {
     border: 1px solid hsl(0, 69%, 54%);
 }
 
