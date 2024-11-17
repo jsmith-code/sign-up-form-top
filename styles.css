@@ -81,7 +81,7 @@ body {
     background: 
         url(./img/bg_pine.jpg)
         top right / cover
-        hsl(130, 3%, 38%);
+        var(--dark-green);
 }
 
 .logo {
