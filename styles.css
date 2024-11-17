@@ -75,7 +75,6 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 
     background: 
         url(./img/bg_pine.jpg)
@@ -98,8 +97,8 @@ body {
 }
 
 .img-credit {
-    justify-self: flex-end;
-    align-self: center;
+    margin-top: auto;
+    text-align: center;
     margin-bottom: 10px;
     color: var(--credit-text);
     text-shadow: 0 0 6px var(--credit-bg);
