@@ -36,8 +36,8 @@
     --input-text: var(--grey-black);
     --input-shadow-focus: var(--shadow-light);
     --input-outline: var(--grey-light);
-    --input-outline-focus: var(--blue);
-    --input-outline-invalid: var(--red);
+    --input-focus: var(--blue);
+    --input-invalid: var(--red);
 
     --btn-bg: var(--dark-green);
     --btn-bg-hover: var(--dark-green-alt);
@@ -143,20 +143,20 @@ form#sign-up {
 }
 
 .form-field input:focus {
-    outline: 1px solid var(--input-outline-focus);
+    outline: 1px solid var(--input-focus);
     box-shadow: 2px 2px 4px var(--input-shadow-focus);
 }
 
 .form-field input[type="password"]:invalid, 
 .form-field input:user-invalid {
-    border: 1px solid var(--input-outline-invalid);
+    border: 1px solid var(--input-invalid);
 }
 
 .form-field > input[type="password"]:invalid + span::after {
     content: '* Passwords do not match';
     position: absolute;
     font-size: 0.6rem;
-    color: var(--input-outline-invalid);
+    color: var(--input-invalid);
 }
 
 .form-field label {
