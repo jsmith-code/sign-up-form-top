@@ -120,7 +120,7 @@ body {
     max-width: 550px;
 }
 
-#sign-up {
+form#sign-up {
     padding: 24px 32px;
     display: flex;
     flex-direction: column;
