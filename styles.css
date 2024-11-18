@@ -152,6 +152,13 @@ form#sign-up {
     border: 1px solid var(--input-outline-invalid);
 }
 
+.form-field > input[type="password"]:invalid + span::after {
+    content: '* Passwords do not match';
+    position: absolute;
+    font-size: 0.6rem;
+    color: var(--input-outline-invalid);
+}
+
 .form-field label {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
