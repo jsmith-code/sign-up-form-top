@@ -147,7 +147,7 @@ form#sign-up {
     box-shadow: 2px 2px 4px var(--input-shadow-focus);
 }
 
-.form-field[type="password"] input:invalid, 
+.form-field input[type="password"]:invalid, 
 .form-field input:user-invalid {
     border: 1px solid var(--input-outline-invalid);
 }
