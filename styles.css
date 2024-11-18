@@ -167,9 +167,9 @@ form#sign-up {
 .sign-up-btn {
     margin-left: 32px;
     margin-top: 32px;
-    padding: 8px 32px;
+    padding: 10px 40px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     background: var(--btn-bg);
     box-shadow: 2px 2px 4px var(--btn-shadow);
     color: var(--btn-text);
