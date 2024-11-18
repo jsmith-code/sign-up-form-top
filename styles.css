@@ -121,7 +121,7 @@ body {
 }
 
 form#sign-up {
-    padding: 24px 32px;
+    padding: 32px;
     display: flex;
     flex-direction: column;
     gap: 16px;
