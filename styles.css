@@ -82,7 +82,7 @@ body {
         var(--dark-green);
 }
 
-.logo {
+.header .logo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,7 +96,7 @@ body {
     color: var(--logo-text);
 }
 
-.img-credit {
+.header .img-credit {
     margin-top: auto;
     text-align: center;
     margin-bottom: 10px;
@@ -105,7 +105,7 @@ body {
     font-size: 0.8rem;
 }
 
-.img-credit a {
+.header .img-credit a {
     color: var(--credit-text);
 }
 
