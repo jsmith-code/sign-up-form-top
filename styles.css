@@ -167,6 +167,10 @@ form#sign-up {
     color: var(--input-invalid);
 }
 
+.form-field:has(input[type="password"] + span) {
+    padding-bottom: 20px;
+}
+
 .form-field label {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
