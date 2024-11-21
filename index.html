@@ -80,7 +80,9 @@
                         required
                         type="password"
                         name="pwd"
-                        id="pwd">
+                        id="pwd"
+                        title="Must be 8 characters long, and contain at least one lowercase letter, uppercase letter, number, and symbol"
+                        pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\w_]).{8,}">
                 </div>   
                 <div class="form-field">
                     <label for="confirm-pwd">CONFIRM PASSWORD</label>
@@ -88,7 +90,9 @@
                         required
                         type="password"
                         name="confirm_pwd"
-                        id="confirm-pwd">
+                        id="confirm-pwd"
+                        title="Must be 8 characters long, and contain at least one lowercase letter, uppercase letter, number, and symbol"
+                        pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\w_]).{8,}">
                         <span></span>
                 </div>
             </div>
