@@ -159,6 +159,14 @@ form#sign-up {
     color: var(--input-invalid);
 }
 
+.form-field > input[type="password"]#pwd:invalid + span::after {
+    content: '* Must be 8 characters long, and contain at least one lowercase letter, uppercase letter, number, and symbol';
+    max-width: 200px;
+    position: absolute;
+    font-size: 0.6rem;
+    color: var(--input-invalid);
+}
+
 .form-field label {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
