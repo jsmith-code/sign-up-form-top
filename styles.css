@@ -56,6 +56,12 @@
     /* Spacing */
     --content-padding-side: 32px;
     --content-margin-side: 32px;
+
+    --font-x-large: 2.5rem;
+    --font-large: 1.25rem;
+    --font-normal: 1rem;
+    --font-small: 0.8rem;
+    --font-x-small: 0.6rem;
 }
 
 * {
@@ -94,7 +100,7 @@ body {
     padding: 16px 32px;
     margin: 25vh 0;
     font-family: "Norse", sans-serif;
-    font-size: 2.5rem;
+    font-size: var(--font-x-large);
     
     background: var(--logo-bg);
     color: var(--logo-text);
@@ -106,7 +112,7 @@ body {
     margin-bottom: 10px;
     color: var(--credit-text);
     text-shadow: 0 0 6px var(--credit-bg);
-    font-size: 0.8rem;
+    font-size: var(--font-small);
 }
 
 .header .img-credit a {
@@ -159,7 +165,7 @@ form#sign-up {
 .form-field > input[type="password"]#confirm-pwd:invalid + span::after {
     content: '* Passwords do not match';
     position: absolute;
-    font-size: 0.6rem;
+    font-size: var(--font-x-small);
     color: var(--input-invalid);
 }
 
@@ -167,7 +173,7 @@ form#sign-up {
     content: '* Must be 8 characters long, and contain at least one lowercase letter, uppercase letter, number, and symbol';
     max-width: 200px;
     position: absolute;
-    font-size: 0.6rem;
+    font-size: var(--font-x-small);
     color: var(--input-invalid);
 }
 
@@ -178,13 +184,13 @@ form#sign-up {
 .form-field label {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    font-size: 0.6rem;
+    font-size: var(--font-x-small);
     letter-spacing: 1px;
 }
 
 .form-header {
     font-weight: bold;
-    font-size: 1.25rem;
+    font-size: var(--font-large);
 }
 
 .sign-up-btn {
@@ -197,7 +203,7 @@ form#sign-up {
     box-shadow: 2px 2px 4px var(--btn-shadow);
     color: var(--btn-text);
     font-weight: bold;
-    font-size: 0.8rem;
+    font-size: var(--font-small);
     cursor: pointer;
     transition: background-color 100ms;
 }
@@ -208,7 +214,7 @@ form#sign-up {
 
 .log-in {
     margin-left: var(--content-margin-side);
-    font-size: 0.8rem;
+    font-size: var(--font-small);
 }
 
 .log-in a {
