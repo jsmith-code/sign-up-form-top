@@ -152,7 +152,7 @@ form#sign-up {
     border: 1px solid var(--input-invalid);
 }
 
-.form-field > input[type="password"]:invalid + span::after {
+.form-field > input[type="password"]#confirm-pwd:invalid + span::after {
     content: '* Passwords do not match';
     position: absolute;
     font-size: 0.6rem;
