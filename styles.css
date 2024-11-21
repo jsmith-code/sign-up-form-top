@@ -52,6 +52,10 @@
 
     --credit-text: var(--white);
     --credit-bg: var(--shadow-dark);
+
+    /* Spacing */
+    --content-padding-side: 32px;
+    --content-margin-side: 32px
 }
 
 * {
@@ -116,12 +120,12 @@ body {
 
 .info {
     font-weight: bold;
-    padding: 16px 32px;
+    padding: 16px var(--content-padding-side);
     max-width: 550px;
 }
 
 form#sign-up {
-    padding: 32px;
+    padding: 32px var(--content-padding-side);
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -184,7 +188,7 @@ form#sign-up {
 }
 
 .sign-up-btn {
-    margin-left: 32px;
+    margin-left: var(--content-margin-side);
     margin-top: 32px;
     padding: 10px 40px;
     border: none;
@@ -203,7 +207,7 @@ form#sign-up {
 }
 
 .log-in {
-    margin-left: 32px;
+    margin-left: var(--content-margin-side);
     font-size: 0.8rem;
 }
 
