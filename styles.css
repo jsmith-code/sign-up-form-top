@@ -120,8 +120,13 @@ body {
 }
 
 .content-container {
-    align-self: center;
+    display: flex;
     flex: 1;
+    flex-direction: column;
+}
+
+.main-content-container {
+    margin: auto 0;
 }
 
 .info {
