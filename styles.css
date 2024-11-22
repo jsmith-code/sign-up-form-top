@@ -126,6 +126,7 @@ body {
 
 .info {
     font-weight: bold;
+    font-size: var(--font-large);
     padding: 16px var(--content-padding-side);
     max-width: 550px;
 }
