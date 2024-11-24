@@ -233,3 +233,21 @@ form#sign-up {
     color: var(--link-hover);
     text-decoration: underline;
 }
+
+.main-content-links {
+    color: var(--link);
+    font-weight: bold;
+    text-align: center;
+    font-size: var(--font-small);
+    margin-bottom: 10px;
+}
+
+.main-content-links a {
+    text-decoration: none;
+    color: var(--link);
+}
+
+.main-content-links a:hover {
+    text-decoration: underline;
+    color: var(--link-hover);
+}
